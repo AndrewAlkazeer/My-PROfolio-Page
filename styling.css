@@ -28,15 +28,156 @@ body{
     background-attachment: fixed;
   }
 
+.big-container{
+
+}
+
 .first-page{
 
- 
 }
+
+.first-page-h1{
+    position: relative;
+    border-bottom: 5px solid #74E8A8;
+    color: white;
+
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 
 .first-page-img{
     background-size: cover;
     background-position: center;
     margin: 0;
     width: 100%;
-    height: 80%;
+    height: 70vh;
 }
+
+.first-page-container{
+    position: absolute;
+    width: 100%;
+    
+    height: 10%;
+}
+
+.first-page-container-divv{
+  height: 100%;
+}
+
+.first-page-container-div-ul{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.first-page-container-button{
+    font-size: x-large;
+}
+
+.first-page-container-div{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+  }
+  
+  .first-page-container-div:before{
+      content: '';
+      background-color: #74E8A8;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10%;
+      height: 5px;
+    }
+  
+  .first-page-container-div:after{
+      content: '';
+      background-color: #74E8A8;
+      position: absolute;
+      top: 7px;
+      left: -7px;
+      width: 10%;
+      height: 5px;
+      transform: rotate(90deg);
+    }
+  
+  
+    .first-page-container-button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: arial;
+    color: white;
+  }
+  
+  .first-page-container-button:before{
+      content: '';
+      background-color: #74E8A8;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 5px;
+  }
+  
+  .first-page-container-button:after{
+    content: '';
+      background-color: #74E8A8;
+      position: absolute;
+      bottom: 7px;
+      right: -7px;
+      width: 10%;
+      height: 5px;
+      transform: rotate(90deg);
+  }
+  
+  .first-page-container-div:hover:before, .first-page-container-button:hover:before{
+    
+    width: 100%;
+    transition: 1s;
+  }
+  
+  .first-page-container-div:hover:after{
+    top: 50%;
+    width: 45px;
+    transition: 1s;
+    
+  }
+  
+  .first-page-container-div:hover:after{
+    left: -20px;
+  }
+  
+  .first-page-container-button:hover:after{
+    right: -20px;
+    width: 45px;
+    transition: 1s;
+    bottom: 25px;
+  }
+
+  .first-page-div-developer{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+  }
+
+  .first-page-div-developer-h1{
+    background-color: blue;
+    font-size: 40px;
+  }
+  
