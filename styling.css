@@ -40,8 +40,7 @@ body{
     position: relative;
     border-bottom: 5px solid #74E8A8;
     color: white;
-
-    width: 400px;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 40px;
     margin-top: 5px;
@@ -88,7 +87,7 @@ ul li{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 180px;
+    width: 160px;
     height: 50px;
     background-color: transparent;
   }
@@ -174,10 +173,47 @@ ul li{
     top: 30%;
     left: 50%;
     transform:translate(-50%, -50%);
+    width: 80%;
+    margin-top: 3%;
   }
 
   .first-page-div-developer-h1{
-    background-color: blue;
+    position: relative;
+    font-family: 'Mali', cursive;
     font-size: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .slash{
+    color: #74E8A8;
+  }
+
+  .first-page-contact-div-i{
+    position: relative;
+    text-align: center;
+  }
+
+  .first-page-contact-div-col{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3%;
+    height: 100px;
+  }
+
+  #social-media{
+    position: relative;
+    font-size: 40px;
+    color: #74E8A8;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #social-media:hover{
+    color: white;
+    transition: 1s;
   }
   
