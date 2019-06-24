@@ -13,7 +13,7 @@ body{
     z-index: 0;
 }
 
-.fixed-background::after {
+.fixed-background::after{
     background: url('/My-PROfolio-Page/images/developer background.jpg');
     content: "";
     opacity: 0.7;
@@ -28,8 +28,10 @@ body{
     background-attachment: fixed;
   }
 
-.big-container{
+  
 
+.big-container{
+ background-color: transparent;
 }
 
 .first-page{
@@ -43,8 +45,9 @@ body{
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -77,12 +80,12 @@ body{
 ul li{
     list-style-type: none;
 }
-
-.first-page-container-button{
+/* Start  Button Styling   */
+.first-page-container-button, .left-button, .project-1-button, .project-2-button, .project-3-button{
     font-size: x-large;
 }
 
-.first-page-container-div{
+.first-page-container-div, .left-div{
     position: relative;
     left: 50%;
     top: 50%;
@@ -92,7 +95,7 @@ ul li{
     background-color: transparent;
   }
   
-  .first-page-container-div:before{
+  .first-page-container-div:before, .left-div:before, .project-1-div:before, .project-2-div:before, .project-3-div:before{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -102,7 +105,7 @@ ul li{
       height: 5px;
     }
   
-  .first-page-container-div:after{
+  .first-page-container-div:after, .left-div:after, .project-1-div:after, .project-2-div:after, .project-3-div:after{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -114,7 +117,7 @@ ul li{
     }
   
   
-    .first-page-container-button{
+    .first-page-container-button, .left-button, .project-1-button, .project-2-button, .project-3-button{
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -123,7 +126,7 @@ ul li{
     color: white;
   }
   
-  .first-page-container-button:before{
+  .first-page-container-button:before, .left-button:before, .project-1-button:before, .project-2-button:before, .project-3-button:before{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -133,7 +136,7 @@ ul li{
       height: 5px;
   }
   
-  .first-page-container-button:after{
+  .first-page-container-button:after, .left-button:after, .project-1-button:after, .project-2-button:after, .project-3-button:after{
     content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -144,29 +147,31 @@ ul li{
       transform: rotate(90deg);
   }
   
-  .first-page-container-div:hover:before, .first-page-container-button:hover:before{
+  .first-page-container-div:hover:before, .first-page-container-button:hover:before, .left-div:hover:before, .left-button:hover:before, .project-1-div:hover:before, .project-1-button:hover:before, .project-2-div:hover:before, .project-2-button:hover:before, .project-3-div:hover:before, .project-3-button:hover:before{
     
     width: 100%;
-    transition: 1s;
+    transition: 0.5s;
   }
   
-  .first-page-container-div:hover:after{
+  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after{
     top: 50%;
     width: 45px;
-    transition: 1s;
+    transition: 0.5s;
     
   }
   
-  .first-page-container-div:hover:after{
+  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after{
     left: -20px;
   }
   
-  .first-page-container-button:hover:after{
+  .first-page-container-button:hover:after, .left-button:hover:after, .project-1-button:hover:after, .project-2-button:hover:after, .project-3-button:hover:after{
     right: -20px;
     width: 45px;
-    transition: 1s;
+    transition: 0.5s;
     bottom: 25px;
   }
+
+/* End  Button Styling   */
 
   .first-page-div-developer{
     position: absolute;
@@ -181,12 +186,13 @@ ul li{
     position: relative;
     font-family: 'Mali', cursive;
     font-size: 40px;
+    top: 70px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
   }
 
-  .slash{
+  .slash, .and{
     color: #74E8A8;
   }
 
@@ -199,7 +205,7 @@ ul li{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 3%;
+    top: 120px;
     height: 100px;
   }
 
@@ -207,13 +213,193 @@ ul li{
     position: relative;
     font-size: 40px;
     color: #74E8A8;
-    text-align: center;
+   
     top: 50%;
     transform: translateY(-50%);
   }
 
   #social-media:hover{
     color: white;
-    transition: 1s;
+    transition: 0.5s;
+  }
+
+  .left{
+    height: 100vh;
+    background-color: #48c9b0;
+  }
+
+  .left-h1{
+    position: relative;
+
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Mali', cursive;
+    top: 20%;
+    transform: translateY(-20%);
+  }
+
+  .left-p{
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    font-family: arial;
+    top: 40%;
+    transform: translateY(-40%);
+  }
+
+
+  .right{
+    height: 100vh;
+    background-color: #48c9b0;
+  }
+
+  .right-img{
+    width: 90%;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 14px 28px #74E8A8, 0 10px 10px #74E8A8;
+}  
+
+.fixed-background-2{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 20vh;
+  background-color: #74E8A8;
+  z-index: 0;
+}
+
+.fixed-background-2::after {
+  background: url('/My-PROfolio-Page/images/developer background.jpg');
+  content: "";
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.projects{
+
+}
+
+.projects-line{
+  background-color: #48c9b0;
+  width: 30px;
+  height: 10px;
+  margin-top: 30px;
+}
+
+.project-1, .project-2, .project-3{
+  height: 50vh;
+  margin-top: 30px;
+}
+/*     From Here               */
+.project-1-p, .project-2-p, .project-3-p{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.project-1-img, .project-2-img, .project-3-img{
+  width: 100%;
+  height: 70%;
+}
+
+.project-1-div, .project-2-div, .project-3-div{
+  position: relative;
+    left: 50%;
+    top: 2%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.project-1-absolute, .project-2-absolute, .project-3-absolute{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #74E8A8;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+#project-1-i, #project-2-i, #project-3-i{
+  position: relative;
+  font-size: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-1-hidden, .project-2-hidden, .project-3-hidden{
+  position: absolute;
+  width: 100%;
+  height: 82%;
+  background-color: white;
+  left: 0;
+  display: none;
+}
+
+.project-1-hidden-p, .project-2-hidden-p, .project-3-hidden-p{
+  position: relative;
+  color: #48c9b0;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 700;
+  width: 90%;
+  height: 50%;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+}
+
+.project-1-hidden-div, .project-2-hidden-div, .project-3-hidden-div{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #74E8A8;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  border-radius: 50%;
+}
+
+#project-1-hidden-i, #project-2-hidden-i, #project-3-hidden-i{
+  position: relative;
+  font-size: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Working here still under constraction :) */
+.project-1-absolute:active{
+  
+}
+
+
+
+  @media screen and (max-width: 600px) {
+
+    
+
+
+
+
+
+
   }
   
