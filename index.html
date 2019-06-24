@@ -123,13 +123,14 @@
                    <div class = "fixed-background-2">
                        <div class = "container-fluid">
                       <div class = "row projects" style = "top: 20vh; position: relative; margin-top: 30px;">
-                            <h1 class = "col-lg-12" style="text-align: center;">My Projects</h1>
-                            <div class = "projects-line col-lg-12"></div>
+                            <h1 class = "col-lg-12" style="text-align: center; margin-bottom: 10px;">My Projects</h1>
+                            <div class = "projects-line-fixed col-lg-4 col-md-4 col-sm-4 col-4"></div>
+                            <div class = "not-showing-have-problem col-lg-12"></div>
 
-                            <div class = "project-1 col-lg-4" style="background-color:#48c9b0;">
+                            <div class = "project-1 col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1" style="background-color:white;">
                                 <div class = "project-1-absolute"><i class = "glyphicon glyphicon-eye-open" id = "project-1-i"></i></div>
                                 <div class = "project-1-hidden">
-                                    <p class = "project-1-hidden-p">I used HTML, CSS, and Bootstrap to build this project.</p>
+                                    <p class = "project-1-hidden-p">I used HTML, CSS, and Bootstrap 3 to build this project.</p>
                                     <div class = "project-1-hidden-div"><i class = "glyphicon glyphicon-eye-close" id = "project-1-hidden-i"></i></div>
                                 </div>
                             <p class = "project-1-p">Book a Flight</p>
@@ -137,11 +138,11 @@
                             <div class = "project-1-div"><button class = "project-1-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-1-i"></i></button></div>
                             </div>
 
-                            <div class = "project-2 col-lg-4" style="background-color:blue;">
+                            <div class = "project-2 col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1" style="background-color:white;">
                             
                                     <div class = "project-2-absolute"><i class = "glyphicon glyphicon-eye-open" id = "project-2-i"></i></div>
                                     <div class = "project-2-hidden">
-                                        <p class = "project-2-hidden-p">I used HTML, CSS, and Bootstrap to build this project.</p>
+                                        <p class = "project-2-hidden-p">I used HTML, CSS, Bootstrap 3 & 4, and Adobe Photoshop to build this project.</p>
                                         <div class = "project-2-hidden-div"><i class = "glyphicon glyphicon-eye-close" id = "project-2-hidden-i"></i></div>
                                     </div>
                                 <p class = "project-2-p">Marketing Platform</p>
@@ -151,11 +152,11 @@
 
                             </div>
 
-                            <div class = "project-3 col-lg-4" style="background-color:yellow;">
+                            <div class = "project-3 col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1" style="background-color:white;">
                             
                                     <div class = "project-3-absolute"><i class = "glyphicon glyphicon-eye-open" id = "project-3-i"></i></div>
                                     <div class = "project-3-hidden">
-                                        <p class = "project-3-hidden-p">I used HTML, CSS, and Bootstrap to build this project.</p>
+                                        <p class = "project-3-hidden-p">I used HTML, CSS, Bootstrap 4, and Adobe XD to build this project.</p>
                                         <div class = "project-3-hidden-div"><i class = "glyphicon glyphicon-eye-close" id = "project-3-hidden-i"></i></div>
                                     </div>
                                 <p class = "project-3-p">Login Screen</p>
@@ -166,16 +167,72 @@
                             </div>
 
                             <!--
+                                    Under Construction :)
+
                             <div class = "project-4 col-lg-6" style="background-color:purple;"></div>
                             <div class = "project-5 col-lg-6" style="background-color:orange;"></div>
                             <div class = "project-6 col-lg-6" style="background-color:pink;"></div>
                             -->
                        </div>
+
+
+                       <div class = "container-fluid">
+                            <div class = "row contact" style = "top: 25vh; position: relative; margin-top: 30px;">
+    
+                               <h1 class = "contact-h1 col-lg-12">Contact</h1>
+                               <div class = "contact-line col-lg-4 col-md-4 col-sm-4 col-4"></div>
+                               <div class = "contact-form col-lg-12">
+    
+                                    <form style="margin-top: 20px;" class = "col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                                            
+                                            <div class="form-group">
+                                              <label for="exampleInputname" style="font-size: x-large">Name</label>
+                                              <input style="height: 50px; font-size: large;" type="text" class="form-control" id="form-name" placeholder="Enter your name">
+                                            </div>
+
+                                            <div class="form-group">
+                                                    <label for="exampleInputname" style="font-size: x-large">Email address</label>
+                                                    <input style="height: 50px; font-size: large;" type="email" class="form-control" id="form-email" aria-describedby="emailHelp" placeholder="Enter your email">
+                                                  </div>
+                                            
+                                            <div style="margin-top: 30px; margin-left: 30px;" id = "contact-form-div"><button id = "contact-form-button" type="submit" class="btn btn-primary">Submit</button></div>
+                                          </form>
+
+                               </div>
+                            </div>
+                        </div>
+
                       </div>
+
+                      <div class = "container-fluid" style="background-color: black; position: relative; top: 30vh; height: 20vh;">
+                            <div class = "row footer">
+ 
+                                 <p class = "footer-p col-lg-12">Your ip address is <span class = "footer-span"> <script src="https://l2.io/ip.js"></script> </span></p>
+                                 <div class = "row footer-row">
+                                     
+
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-github" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-linkedin" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-codepen" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-twitter" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-free-code-camp" id = "social-media-footer"></i></a></div>
+  
+                        </div>
+                        <p id = "footer-copyright" class = "col-lg-12">&copy 2019 Coded and Designed By Andrew Alkazeer</p>
+                        </div>
+
+                         </div>
+                         
                     </div>
+
                    </div>
 
-    </div>
+                   
+                    
+
+
+                   
+
 
 
 
