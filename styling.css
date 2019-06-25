@@ -14,7 +14,7 @@ body{
 }
 
 .fixed-background::after{
-    background: url('/My-PROfolio-Page/images/developer background.jpg');
+    background: url('/images/developer background.jpg');
     content: "";
     opacity: 0.7;
     position: absolute;
@@ -281,7 +281,7 @@ ul li{
 }
 
 .fixed-background-2::after {
-  background: url('/My-PROfolio-Page/images/developer background.jpg');
+  background: url('/images/developer background.jpg');
   content: "";
   opacity: 0.7;
   position: absolute;
