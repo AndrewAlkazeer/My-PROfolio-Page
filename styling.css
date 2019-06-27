@@ -58,7 +58,6 @@ body{
   background-color: #74E8A8;
   left: 150%;
   transform: translateX(-50%);
-  display: none;
 }
 
 
@@ -116,8 +115,13 @@ ul li{
     list-style-type: none;
 }
 /* Start  Button Styling   */
-.first-page-container-button, .left-button, .project-1-button, .project-2-button, .project-3-button, #contact-form-button{
+.first-page-container-button, .project-1-button, .project-2-button, .project-3-button, #contact-form-button{
     font-size: x-large;
+}
+
+.left-button{
+  font-size: large;
+  font-weight: bold;
 }
 
 .first-page-container-div, .left-div{

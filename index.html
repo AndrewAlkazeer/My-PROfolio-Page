@@ -38,8 +38,8 @@
                     <div class = "row">
        
                         <div class = "first-page" style="width: 100%;">
-                                <nav class = "navbar navbar-inverse navbar-fixed-top" id = "navbar" style="margin: 0;">
-                                        <div class = "container">
+                                <nav class = "navbar navbar-inverse fixed-top" id = "navbar" style="margin: 0;">
+                                        <div class = "container-fluid">
                                         <div class = "navbar-header ml-auto">
                                         
                                             <button class = "navbar-toggle collapsed" id = "navbar-btn" data-toggle = "collapse" data-target = "#mydropdown">
@@ -53,9 +53,9 @@
                                          
                                                 <ul class = "row mydropdown-ul">
                                                         <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-1 first-page-container-div"><button class = "first-page-container-button-1 first-page-container-button" style="color: #fff;">Home</button></div></li>
-                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-2 first-page-container-div"><button class = "first-page-container-button-2 first-page-container-button" style="color: #74E8A8;">About</button></div></li>
-                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-3 first-page-container-div"><button class = "first-page-container-button-3 first-page-container-button" style="color: #74E8A8;">Projects</button></div></li>
-                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-4 first-page-container-div"><button class = "first-page-container-button-4 first-page-container-button" style="color: #74E8A8;">Contact</button></div></li>
+                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-2 first-page-container-div"><button onclick="location.href=('#about')" class = "first-page-container-button-2 first-page-container-button" style="color: #74E8A8;">About</button></div></li>
+                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-3 first-page-container-div"><button onclick="location.href=('#projects')" class = "first-page-container-button-3 first-page-container-button" style="color: #74E8A8;">Projects</button></div></li>
+                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-4 first-page-container-div"><button onclick="location.href=('#contact')" class = "first-page-container-button-4 first-page-container-button" style="color: #74E8A8;">Contact</button></div></li>
                              
                                                       </ul>
                                         </div>
@@ -91,11 +91,11 @@
 
                                     
                                       <div class = "row first-page-contact-div-col" style="margin: 0;">
-                                      <div class = "first-page-contact-div-1 first-page-contact-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-github" id = "social-media"></i></a></div>
-                                      <div class = "first-page-contact-div-2 first-page-contact-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-linkedin" id = "social-media"></i></a></div>
-                                      <div class = "first-page-contact-div-3 first-page-contact-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-codepen" id = "social-media"></i></a></div>
-                                      <div class = "first-page-contact-div-4 first-page-contact-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-twitter" id = "social-media"></i></a></div>
-                                      <div class = "first-page-contact-div-5 first-page-contact-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-free-code-camp" id = "social-media"></i></a></div>
+                                      <div class = "first-page-contact-div-1 first-page-contact-div-i col-lg col-md col-sm col"><a href="https://github.com/AndrewAlkazeer"><i class = "fa fa-github" id = "social-media"></i></a></div>
+                                      <div class = "first-page-contact-div-2 first-page-contact-div-i col-lg col-md col-sm col"><a href="https://www.linkedin.com/in/andrew-alkazeer-898a97133/"><i class = "fa fa-linkedin" id = "social-media"></i></a></div>
+                                      <div class = "first-page-contact-div-3 first-page-contact-div-i col-lg col-md col-sm col"><a href="https://codepen.io/collection/nayNOa/"><i class = "fa fa-codepen" id = "social-media"></i></a></div>
+                                      <div class = "first-page-contact-div-4 first-page-contact-div-i col-lg col-md col-sm col"><a href="https://twitter.com/ferasalkzer"><i class = "fa fa-twitter" id = "social-media"></i></a></div>
+                                      <div class = "first-page-contact-div-5 first-page-contact-div-i col-lg col-md col-sm col"><a href="https://www.freecodecamp.org/andrewalkazeer"><i class = "fa fa-free-code-camp" id = "social-media"></i></a></div>
                                       </div>
                                   
                                     
@@ -115,7 +115,7 @@
                     </div>
                    <div class = "container-fluid">
 
-                      <div class = "row" style="margin-top: 141px;">
+                      <div class = "row" style="margin-top: 141px;" id ="about">
                               <div class = "col-lg-6 left">
                                  <h1 class = "left-h1">Hi, Nice to meet you.</h1>
                                  <p class = "left-p">
@@ -130,7 +130,7 @@
 
                    </div>
                     
-                   <div class = "fixed-background-2">
+                   <div class = "fixed-background-2" id = "projects">
                        <div class = "container-fluid">
                       <div class = "row projects" style = "top: 20vh; position: relative; margin-top: 30px;">
                             <h1 class = "col-lg-12" style="text-align: center; margin-bottom: 10px;">My Projects</h1>
@@ -145,7 +145,7 @@
                                 </div>
                             <p class = "project-1-p">Book a Flight</p>
                             <img class = "project-1-img" src="/images/Book a Flight.png" />
-                            <div class = "project-1-div"><button class = "project-1-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-1-i"></i></button></div>
+                            <div class = "project-1-div"><button onclick="window.open('https://upbeat-swartz-78b5b9.netlify.com')" class = "project-1-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-1-i"></i></button></div>
                             </div>
 
                             <div class = "project-2 col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1" style="background-color:white;">
@@ -157,7 +157,7 @@
                                     </div>
                                 <p class = "project-2-p">Marketing Platform</p>
                                 <img class = "project-2-img" src="/images/Marketing Platform.jpg" />
-                                <div class = "project-2-div"><button class = "project-2-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-2-i"></i></button></div>
+                                <div onclick="window.open('https://silly-heisenberg-501912.netlify.com/')" class = "project-2-div"><button class = "project-2-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-2-i"></i></button></div>
 
 
                             </div>
@@ -171,7 +171,7 @@
                                     </div>
                                 <p class = "project-3-p">Login Screen</p>
                                 <img class = "project-3-img" src="/images/Login Screen.jpg" />
-                                <div class = "project-3-div"><button class = "project-2-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-3-i"></i></button></div>
+                                <div onclick="window.open('https://optimistic-kare-74ae46.netlify.com/')" class = "project-3-div"><button class = "project-2-button">Visit Page <i class = "glyphicon glyphicon-chevron-right project-3-i"></i></button></div>
 
 
                             </div>
@@ -187,25 +187,30 @@
 
 
                        <div class = "container-fluid">
-                            <div class = "row contact" style = "top: 25vh; position: relative; margin-top: 30px;">
+                            <div class = "row contact" id = "contact" style = "top: 25vh; position: relative; margin-top: 30px;">
     
                                <h1 class = "contact-h1 col-lg-12">Contact</h1>
                                <div class = "contact-line col-lg-4 col-md-4 col-sm-4 col-4"></div>
                                <div class = "contact-form col-lg-12">
     
-                                    <form style="margin-top: 20px;" class = "col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                                    <form id = "submit-form" name="contact" method="POST" data-netlify="true" style="margin-top: 20px;" class = "col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
                                             
                                             <div class="form-group">
-                                              <label for="exampleInputname" style="font-size: x-large">Name</label>
-                                              <input style="height: 50px; font-size: large;" type="text" class="form-control" id="form-name" placeholder="Enter your name">
+                                              <label for="name" style="font-size: x-large">Name</label>
+                                              <input style="height: 50px; font-size: large;" type="text" class="form-control" id="form-name" placeholder="Enter your name" name="name">
                                             </div>
 
                                             <div class="form-group">
-                                                    <label for="exampleInputname" style="font-size: x-large">Email address</label>
-                                                    <input style="height: 50px; font-size: large;" type="email" class="form-control" id="form-email" aria-describedby="emailHelp" placeholder="Enter your email">
+                                                    <label for="email" style="font-size: x-large">Email</label>
+                                                    <input style="height: 50px; font-size: large;" type="email" class="form-control" id="form-email" aria-describedby="emailHelp" placeholder="Enter your email" name="email">
                                                   </div>
+
+                                                  <div class="form-group">
+                                                        <label for="message" style="font-size: x-large">Message</label>
+                                                        <input style="height: 50px; font-size: large;" type="text" class="form-control" id="form-message" aria-describedby="messageHelp" placeholder="Enter your message" name="message">
+                                                      </div>
                                             
-                                            <div style="margin-top: 30px; margin-left: 30px;" id = "contact-form-div"><button id = "contact-form-button" type="submit" class="btn btn-primary">Submit</button></div>
+                                            <div style="margin-top: 30px; margin-left: 30px;" id = "contact-form-div"><button id = "contact-form-button" type="submit" value="submit" class="btn btn-primary">Submit</button></div>
                                           </form>
 
                                </div>
@@ -221,11 +226,11 @@
                                  <div class = "row footer-row">
                                      
 
-                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-github" id = "social-media-footer"></i></a></div>
-                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-linkedin" id = "social-media-footer"></i></a></div>
-                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-codepen" id = "social-media-footer"></i></a></div>
-                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-twitter" id = "social-media-footer"></i></a></div>
-                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="#"><i class = "fa fa-free-code-camp" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="https://github.com/AndrewAlkazeer"><i class = "fa fa-github" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="https://www.linkedin.com/in/andrew-alkazeer-898a97133/"><i class = "fa fa-linkedin" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="https://codepen.io/collection/nayNOa/"><i class = "fa fa-codepen" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="https://twitter.com/ferasalkzer"><i class = "fa fa-twitter" id = "social-media-footer"></i></a></div>
+                                    <div class = "footer-div-i col-lg col-md col-sm col"><a href="https://www.freecodecamp.org/andrewalkazeer"><i class = "fa fa-free-code-camp" id = "social-media-footer"></i></a></div>
   
                         </div>
                         <p id = "footer-copyright" class = "col-lg-12">&copy 2019 Coded and Designed By Andrew Alkazeer</p>
