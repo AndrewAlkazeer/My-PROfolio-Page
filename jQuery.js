@@ -47,7 +47,7 @@ $(window).on('load', ()=>{
    $(".first-page-container-div-3").delay(800).animate({top: '50%'}, 500);
    $(".first-page-container-div-4").delay(1100).animate({top: '50%'}, 500);
    $('.first-page-h1').delay(1500).animate({left: '60%'}, 500).animate({left: '50%'}, 1000);
-   $('.first-page-line').delay(1500).animate({left: '40%'}, 500).animate({left: '50%'}, 1000);
+   //$('.first-page-line').delay(1500).animate({left: '40%'}, 500).animate({left: '50%'}, 1000);
    $('.first-page-div-developer-h1').delay(3000).fadeIn('slow');
    $('.first-page-contact-div-i').delay(3500).fadeIn('slow');
 
