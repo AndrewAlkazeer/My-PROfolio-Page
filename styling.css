@@ -58,6 +58,7 @@ body{
   background-color: #74E8A8;
   left: 150%;
   transform: translateX(-50%);
+  display: none;
 }
 
 
