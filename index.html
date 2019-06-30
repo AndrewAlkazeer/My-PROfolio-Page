@@ -30,7 +30,7 @@
 
 <body style="overflow-x: hidden;">
 
-    <div class = "fixed-background">
+    <div class = "fixed-background" id = "home">
 
             <div class = "container-fluid big-container">
                     
@@ -52,7 +52,7 @@
                                         <div class = "collapse navbar-collapse" id = "mydropdown" style="margin-top: 1%;">
                                          
                                                 <ul class = "row mydropdown-ul">
-                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-1 first-page-container-div"><button class = "first-page-container-button-1 first-page-container-button" style="color: #fff;">Home</button></div></li>
+                                                        <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-1 first-page-container-div"><button onclick="location.href=('#home')" class = "first-page-container-button-1 first-page-container-button" style="color: #fff;">Home</button></div></li>
                                                         <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-2 first-page-container-div"><button onclick="location.href=('#about')" class = "first-page-container-button-2 first-page-container-button" style="color: #74E8A8;">About</button></div></li>
                                                         <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-3 first-page-container-div"><button onclick="location.href=('#projects')" class = "first-page-container-button-3 first-page-container-button" style="color: #74E8A8;">Projects</button></div></li>
                                                         <li class = "col-lg-3 col-md-3"><div class = "first-page-container-div-4 first-page-container-div"><button onclick="location.href=('#contact')" class = "first-page-container-button-4 first-page-container-button" style="color: #74E8A8;">Contact</button></div></li>
@@ -119,9 +119,9 @@
                               <div class = "col-lg-6 left">
                                  <h1 class = "left-h1">Hi, Nice to meet you.</h1>
                                  <p class = "left-p">
-                                        I self taught web developer and designer, enjoy building websites with a beautiful and professional user interface by using HTML, CSS and JavaScript with React, jQuery and Angular frameworks. I have a few knowledge about graphic design using Photoshop. I am currently in school for Back End and improving myself in Front End. Here is my Resume to look at!
+                                        I self taught web development and design, enjoy building websites with a beautiful and professional user interface by using HTML, CSS, Bootstrap, and JavaScript with React, jQuery and Angular frameworks. I have a few knowledge about graphic design using Adobe XD, Illustrator and Photoshop. I am currently in school for Back End and improving myself in Front End.
                                     </p>
-                                    <div class = "left-div"><button class = "left-button">My Resume</button></div>
+                                    <div class = "left-div" onclick="window.open('/images/Andrew\ Resume.pdf#view=Fit')"><button class = "left-button">My Resume</button></div>
                               </div>
                               <div class = "col-lg-6 right">
                                     <img class = "right-img col-12" src="/images/Profile pic.jpg"/>
@@ -257,6 +257,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     
     <script src="/jQuery.js"></script>
+<!--    <script src="Vanilla.js"></script>    -->
 </body>
 
 

@@ -509,9 +509,18 @@ ul li{
 
   @media screen and (max-width: 600px) {
 
+    .first-page-h1{
+      font-size: 30px;
+    }
     
+
 .first-page-line{
   display: none;
+}
+
+
+.first-page-div-developer-h1{
+  font-size: 20px;
 }
 
 

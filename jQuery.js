@@ -53,7 +53,7 @@ $(window).on('load', ()=>{
    $('.first-page-line').delay(1500).animate({left: '40%'}, 500).animate({left: '50%'}, 1000);
    $('.first-page-div-developer-h1').delay(3000).fadeIn('slow');
    $('.first-page-contact-div-i').delay(3500).fadeIn('slow');
-
+   $('.navbar').fadeIn('slow');
 
 });
 
