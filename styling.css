@@ -512,17 +512,15 @@ ul li{
     .first-page-h1{
       font-size: 30px;
     }
-    
-
 .first-page-line{
   display: none;
 }
-
-
 .first-page-div-developer-h1{
   font-size: 20px;
 }
-
+.project-1-button, .project-2-button, .project-3-button{
+font-size: large;
+}
 
 
 
