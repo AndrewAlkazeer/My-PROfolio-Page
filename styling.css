@@ -509,7 +509,7 @@ ul li{
 
   @media screen and (max-width: 600px) {
 
-    .first-page-h1{
+.first-page-h1{
       font-size: 30px;
     }
 .first-page-line{
@@ -522,8 +522,5 @@ ul li{
 font-size: large;
 }
 
-
-
-
-  }
+}
   
