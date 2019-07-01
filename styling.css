@@ -319,10 +319,9 @@ ul li{
   }
 
   .right-img{
-    width: 90%;
-    height: 80%;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 80vh;
+    top: 60%;
+    transform: translateY(-60%);
     box-shadow: 0 14px 28px #74E8A8, 0 10px 10px #74E8A8;
 }  
 
