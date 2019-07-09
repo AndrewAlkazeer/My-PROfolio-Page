@@ -245,7 +245,8 @@ ul li{
 
   .first-page-div-developer-h1{
     position: relative;
-    font-family: 'Mali', cursive;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
     font-size: 40px;
     top: 70px;
     left: 50%;
@@ -460,7 +461,7 @@ ul li{
   transform: translateX(-50%);
 }
 
-#form-name:focus, #form-email:focus{
+#form-name:focus, #form-email:focus, #form-message:focus{
   outline: 2px solid #74E8A8;
 }
 
