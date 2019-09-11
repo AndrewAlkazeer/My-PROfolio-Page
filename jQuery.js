@@ -41,6 +41,32 @@ $('.project-2-absolute').on('click', ()=>{
             
             });
 
+            $('.project-4-absolute').on('click', ()=>{
+
+                $('.project-4-hidden').fadeToggle( "slow", "linear" );
+                    
+                });
+                
+                
+                $('.project-4-hidden-div').on('click', ()=>{
+                
+                    $('.project-4-hidden').fadeToggle( "slow", "linear" );
+                
+                });
+
+                $('.project-5-absolute').on('click', ()=>{
+
+                    $('.project-5-hidden').fadeToggle( "slow", "linear" );
+                        
+                    });
+                    
+                    
+                    $('.project-5-hidden-div').on('click', ()=>{
+                    
+                        $('.project-5-hidden').fadeToggle( "slow", "linear" );
+                    
+                    });
+
 
 
 $(window).on('load', ()=>{

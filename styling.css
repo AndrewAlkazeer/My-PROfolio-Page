@@ -115,7 +115,7 @@ ul li{
     list-style-type: none;
 }
 /* Start  Button Styling   */
-.first-page-container-button, .project-1-button, .project-2-button, .project-3-button, #contact-form-button{
+.first-page-container-button, .project-1-button, .project-2-button, .project-3-button,.project-4-button,.project-5-button, #contact-form-button{
     font-size: x-large;
 }
 
@@ -156,7 +156,7 @@ ul li{
   }
 
   
-  .first-page-container-div:before, .left-div:before, .project-1-div:before, .project-2-div:before, .project-3-div:before, #contact-form-div:before{
+  .first-page-container-div:before, .left-div:before, .project-1-div:before, .project-2-div:before, .project-3-div:before, .project-4-div:before, .project-5-div:before, #contact-form-div:before{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -166,7 +166,7 @@ ul li{
       height: 5px;
     }
   
-  .first-page-container-div:after, .left-div:after, .project-1-div:after, .project-2-div:after, .project-3-div:after, #contact-form-div:after{
+  .first-page-container-div:after, .left-div:after, .project-1-div:after, .project-2-div:after, .project-3-div:after, .project-4-div:after, .project-5-div:after, #contact-form-div:after{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -178,7 +178,7 @@ ul li{
     }
   
   
-    .first-page-container-button, .left-button, .project-1-button, .project-2-button, .project-3-button, #contact-form-button{
+    .first-page-container-button, .left-button, .project-1-button, .project-2-button, .project-3-button, .project-4-button, .project-5-button, #contact-form-button{
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -187,7 +187,7 @@ ul li{
     color: black;
   }
   
-  .first-page-container-button:before, .left-button:before, .project-1-button:before, .project-2-button:before, .project-3-button:before, #contact-form-button:before{
+  .first-page-container-button:before, .left-button:before, .project-1-button:before, .project-2-button:before, .project-3-button:before,.project-4-button:before,.project-5-button:before, #contact-form-button:before{
       content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -197,7 +197,7 @@ ul li{
       height: 5px;
   }
   
-  .first-page-container-button:after, .left-button:after, .project-1-button:after, .project-2-button:after, .project-3-button:after, #contact-form-button:after{
+  .first-page-container-button:after, .left-button:after, .project-1-button:after, .project-2-button:after, .project-3-button:after,.project-4-button:after,.project-5-button:after, #contact-form-button:after{
     content: '';
       background-color: #74E8A8;
       position: absolute;
@@ -208,24 +208,24 @@ ul li{
       transform: rotate(90deg);
   }
   
-  .first-page-container-div:hover:before, .first-page-container-button:hover:before, .left-div:hover:before, .left-button:hover:before, .project-1-div:hover:before, .project-1-button:hover:before, .project-2-div:hover:before, .project-2-button:hover:before, .project-3-div:hover:before, .project-3-button:hover:before, #contact-form-div:hover:before, #contact-form-button:hover:before{
+  .first-page-container-div:hover:before, .first-page-container-button:hover:before, .left-div:hover:before, .left-button:hover:before, .project-1-div:hover:before, .project-1-button:hover:before, .project-2-div:hover:before, .project-2-button:hover:before, .project-3-div:hover:before, .project-3-button:hover:before, .project-4-div:hover:before, .project-4-button:hover:before, .project-5-div:hover:before, .project-5-button:hover:before, #contact-form-div:hover:before, #contact-form-button:hover:before{
     
     width: 100%;
     transition: 0.5s;
   }
   
-  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after, #contact-form-div:hover:after{
+  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after,.project-4-div:hover:after, .project-5-div:hover:after, #contact-form-div:hover:after{
     top: 50%;
     width: 45px;
     transition: 0.5s;
     
   }
   
-  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after, #contact-form-div:hover:after{
+  .first-page-container-div:hover:after, .left-div:hover:after, .project-1-div:hover:after, .project-2-div:hover:after, .project-3-div:hover:after, .project-4-div:hover:after, .project-5-div:hover:after, #contact-form-div:hover:after{
     left: -20px;
   }
   
-  .first-page-container-button:hover:after, .left-button:hover:after, .project-1-button:hover:after, .project-2-button:hover:after, .project-3-button:hover:after, #contact-form-button:hover:after{
+  .first-page-container-button:hover:after, .left-button:hover:after, .project-1-button:hover:after, .project-2-button:hover:after, .project-3-button:hover:after, .project-4-button:hover:after, .project-5-button:hover:after, #contact-form-button:hover:after{
     right: -20px;
     width: 45px;
     transition: 0.5s;
@@ -358,23 +358,23 @@ ul li{
   
 }
 
-.project-1, .project-2, .project-3{
+.project-1, .project-2, .project-3, .project-4, .project-5{
   height: 50vh;
   margin-top: 30px;
 }
 /*     From Here               */
-.project-1-p, .project-2-p, .project-3-p{
+.project-1-p, .project-2-p, .project-3-p, .project-4-p, .project-5-p{
   text-align: center;
   font-size: x-large;
   font-weight: 700;
 }
 
-.project-1-img, .project-2-img, .project-3-img{
+.project-1-img, .project-2-img, .project-3-img, .project-4-img, .project-5-img{
   width: 100%;
   height: 70%;
 }
 
-.project-1-div, .project-2-div, .project-3-div{
+.project-1-div, .project-2-div, .project-3-div, .project-4-div, .project-5-div{
   position: relative;
     left: 50%;
     top: 2%;
@@ -384,7 +384,7 @@ ul li{
     background-color: transparent;
 }
 
-.project-1-absolute, .project-2-absolute, .project-3-absolute{
+.project-1-absolute, .project-2-absolute, .project-3-absolute, .project-4-absolute, .project-5-absolute{
   position: absolute;
   width: 50px;
   height: 50px;
@@ -395,7 +395,7 @@ ul li{
   border-radius: 50%;
 }
 
-#project-1-i, #project-2-i, #project-3-i{
+#project-1-i, #project-2-i, #project-3-i, #project-4-i, #project-5-i{
   position: relative;
   font-size: 30px;
   left: 50%;
@@ -403,7 +403,7 @@ ul li{
   transform: translate(-50%, -50%);
 }
 
-.project-1-hidden, .project-2-hidden, .project-3-hidden{
+.project-1-hidden, .project-2-hidden, .project-3-hidden, .project-4-hidden, .project-5-hidden{
   position: absolute;
   width: 100%;
   height: 84%;
@@ -413,7 +413,7 @@ ul li{
 }
 
 
-.project-1-hidden-p, .project-2-hidden-p, .project-3-hidden-p{
+.project-1-hidden-p, .project-2-hidden-p, .project-3-hidden-p, .project-4-hidden-p, .project-5-hidden-p{
   position: relative;
   color: #48c9b0;
   font-size: x-large;
@@ -426,7 +426,7 @@ ul li{
   transform: translate(-50%, -10%);
 }
 
-.project-1-hidden-div, .project-2-hidden-div, .project-3-hidden-div{
+.project-1-hidden-div, .project-2-hidden-div, .project-3-hidden-div, .project-4-hidden-div, .project-5-hidden-div{
   position: relative;
   width: 50px;
   height: 50px;
@@ -437,7 +437,7 @@ ul li{
   border-radius: 50%;
 }
 
-#project-1-hidden-i, #project-2-hidden-i, #project-3-hidden-i{
+#project-1-hidden-i, #project-2-hidden-i, #project-3-hidden-i, #project-4-hidden-i, #project-5-hidden-i{
   position: relative;
   font-size: 30px;
   left: 50%;
@@ -518,7 +518,7 @@ ul li{
 .first-page-div-developer-h1{
   font-size: 20px;
 }
-.project-1-button, .project-2-button, .project-3-button{
+.project-1-button, .project-2-button, .project-3-button, .project-4-button, .project-5-button{
 font-size: large;
 }
 
