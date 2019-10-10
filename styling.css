@@ -116,7 +116,7 @@ ul li{
 }
 /* Start  Button Styling   */
 .first-page-container-button, .project-1-button, .project-2-button, .project-3-button,.project-4-button,.project-5-button, #contact-form-button{
-    font-size: x-large;
+    font-size: large;
 }
 
 .left-button{
